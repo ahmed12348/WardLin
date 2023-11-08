@@ -69,8 +69,6 @@ class CompanyRepositoryTest extends TestCase
     {
         $response = $this->get('/home'); // Change this route to the expected redirect route
         $response->assertStatus(302); // Update the assertion to 302 as it's a redirect
-
-        // Add more assertions or modify the test logic as per your route
     }
 }
 
